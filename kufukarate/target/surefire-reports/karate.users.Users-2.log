@@ -1,0 +1,45 @@
+11:30:11.725 karate.env system property was: null 
+11:30:11.729 request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 152
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_211)
+{"name":"TestUser","username":"testuser111","email":"abc@gmail.com","address":{"street":"street","suite":"A1234","city":"city1","zipcode":"54321-1234"}}
+
+11:30:12.659 response time in milliseconds: 930.38
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-RAY: 4eccf5a1aed1704e-SIN
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 208
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 26 Jun 2019 06:00:12 GMT
+1 < Etag: W/"d0-St+6zCnIS8NUlMPvuSvM5dpryHE"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d393de13b95f39f1f707739c8d49105c31561528811; expires=Thu, 25-Jun-20 06:00:11 GMT; path=/; domain=.typicode.com; HttpOnly
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{
+  "name": "TestUser",
+  "username": "testuser111",
+  "email": "abc@gmail.com",
+  "address": {
+    "street": "street",
+    "suite": "A1234",
+    "city": "city1",
+    "zipcode": "54321-1234"
+  },
+  "id": 11
+}
+

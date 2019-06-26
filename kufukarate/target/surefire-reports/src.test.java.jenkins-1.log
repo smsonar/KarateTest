@@ -1,0 +1,1250 @@
+16:22:45.373 karate.env system property was: null 
+16:22:46.130 request:
+1 > GET http://localhost:8080/api/json?pretty=true
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_211)
+
+16:22:46.171 response time in milliseconds: 37.52
+1 < 403
+1 < Content-Length: 851
+1 < Content-Type: text/html;charset=utf-8
+1 < Date: Mon, 24 Jun 2019 10:52:46 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Server: Jetty(9.4.z-SNAPSHOT)
+1 < Set-Cookie: JSESSIONID.7dab9fc3=node04wbwi9skcz97buz2cnaynp1k12.node0;Path=/;HttpOnly
+1 < X-Content-Type-Options: nosniff
+1 < X-Hudson: 1.395
+1 < X-Jenkins: 2.179
+1 < X-Jenkins-Session: b8a0b435
+1 < X-Permission-Implied-By: [hudson.security.Permission.GenericRead, hudson.model.Hudson.Administer]
+1 < X-Required-Permission: hudson.model.Hudson.Read
+1 < X-You-Are-Authenticated-As: anonymous
+1 < X-You-Are-In-Group-Disabled: JENKINS-39402: use -Dhudson.security.AccessDeniedException2.REPORT_GROUP_HEADERS=true or use /whoAmI to diagnose
+<html><head><meta http-equiv='refresh' content='1;url=/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue'/><script>window.location.replace('/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue');</script></head><body style='background-color:white; color:white;'>
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body></html>                                                                                                                                                                                                                                                                                                            
+
+16:22:46.210 status code was: 403, expected: 200, response time: 38, url: http://localhost:8080/api/json?pretty=true, response: <html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="1;url=/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue" http-equiv="refresh">
+<script>window.location.replace('/login?from=%2Fapi%2Fjson%3Fpretty%3Dtrue');</script>
+</head>
+<body style="background-color:white; color:white;">
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body>
+</html>
+
+
+function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '593311440870141');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=593311440870141&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MPHB9TQ');</script>
+<!-- End Google Tag Manager -->
+	
+		<link type="text/css" media="all" href="https://www.joecolantonio.com/wp-content/cache/autoptimize/css/autoptimize_2026a3552f74a63be6e2144af77339d3.css" rel="stylesheet" /><link type="text/css" media="screen" href="https://www.joecolantonio.com/wp-content/cache/autoptimize/css/autoptimize_0c43353e1b50759ff61cd37981c942fc.css" rel="stylesheet" /><title>Karate a Rest Test Tool - Basic API Testing</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CLato%3A400%2C400italic%2C700&display=swap" />
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v8.2.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="New to programming or automation testing &amp; need to test APIs. Discover Karate an easy to use code-less BDD like framwork to quickly start creating API tests"/>
+<link rel="canonical" href="https://www.joecolantonio.com/rest-test-tool-karate-api-testing/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Karate a Rest Test Tool - Basic API Testing" />
+<meta property="og:description" content="New to programming or automation testing &amp; need to test APIs. Discover Karate an easy to use code-less BDD like framwork to quickly start creating API tests" />
+<meta property="og:url" content="https://www.joecolantonio.com/rest-test-tool-karate-api-testing/" />
+<meta property="og:site_name" content="Test Automation Made Easy: Tools, Tips &amp; Training Awesomeness" />
+<meta property="article:publisher" content="https://www.facebook.com/testtalks/" />
+<meta property="article:section" content="API Testing" />
+<meta property="article:published_time" content="2017-03-23T18:28:51-04:00" />
+<meta property="article:modified_time" content="2018-11-24T18:12:20-04:00" />
+<meta property="og:updated_time" content="2018-11-24T18:12:20-04:00" />
+<meta property="og:image" content="https://www.joecolantonio.com/wp-content/uploads/2017/03/KarateDSLAPITesting.png" />
+<meta property="og:image:secure_url" content="https://www.joecolantonio.com/wp-content/uploads/2017/03/KarateDSLAPITesting.png" />
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="512" />
+<meta property="og:image:alt" content="Karate DSL API Testing" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="New to programming or automation testing &amp; need to test APIs. Discover Karate an easy to use code-less BDD like framwork to quickly start creating API tests" />
+<meta name="twitter:title" content="Karate a Rest Test Tool - Basic API Testing" />
+<meta name="twitter:site" content="@jcolantonio" />
+<meta name="twitter:image" content="https://www.joecolantonio.com/wp-content/uploads/2017/03/KarateDSLAPITesting.png" />
+<meta name="twitter:creator" content="@jcolantonio" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Person","url":"https:\/\/www.joecolantonio.com\/","sameAs":["https:\/\/www.facebook.com\/testtalks\/","http:\/\/www.linkedin.com\/in\/joecolantonio","http:\/\/www.youtube.com\/user\/JoeColantonio","https:\/\/twitter.com\/jcolantonio"],"@id":"#person","name":"Joe Colantonio"}</script>
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.joecolantonio.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/www.joecolantonio.com\/blog\/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/www.joecolantonio.com\/api-testing-posts\/","name":"API Testing"}},{"@type":"ListItem","position":4,"item":{"@id":"https:\/\/www.joecolantonio.com\/rest-test-tool-karate-api-testing\/","name":"Karate a Rest Test Tool &#8211; Basic API Testing"}}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//tag.getdrip.com' />
+<link rel='dns-prefetch' href='//www.joecolantonio.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//joemainzone-ilyznmosqlw0zs.netdna-ssl.com' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//fonts.gstatic.com' />
+<link rel="alternate" type="application/rss+xml" title="Test Automation Made Easy: Tools, Tips &amp; Training Awesomeness &raquo; Karate a Rest Test Tool &#8211; Basic API Testing Comments Feed" href="https://www.joecolantonio.com/rest-test-tool-karate-api-testing/feed/" />
+
+	
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.joecolantonio.com/wp-content/cache/autoptimize/css/autoptimize_single_d73d9aa60737588bda4ea002de576d2f.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tve_style_family_tve_flt-css'  href='https://www.joecolantonio.com/wp-content/cache/autoptimize/css/autoptimize_single_0295d3f96c78e78a058a1592d67cb84e.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tve_leads_forms-css'  href='https://www.joecolantonio.com/wp-content/cache/autoptimize/css/autoptimize_single_26bb8c6115c5b1d59fa29aaa92c5dcc5.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='thrive-reset-css'  href='https://www.joecolantonio.com/wp-content/cache/autoptimize/css/autoptimize_single_d6bdc7139f706116b69331b11743ab41.css' type='text/css' media='all' />
+<link rel='stylesheet' id='thrive-main-style-css'  href='https://www.joecolantonio.com/wp-content/cache/autoptimize/css/autoptimize_single_2c6ee7ffdb76b83daf9a3faebc86805a.css' type='text/css' media='all' />
+<link rel='stylesheet' id='codecolorer-css'  href='https://www.joecolantonio.com/wp-content/cache/autoptimize/css/autoptimize_single_1344bf344c832ed49fa976247b0253b4.css' type='text/css' media='screen' />
+<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src='https://www.joecolantonio.com/wp-includes/js/jquery/jquery.js'></script>
+
+<link rel='https://api.w.org/' href='https://www.joecolantonio.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.joecolantonio.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.joecolantonio.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.2" />
+<link rel='shortlink' href='https://www.joecolantonio.com/?p=3356' />
+<link rel="alternate" type="application/json+oembed" href="https://www.joecolantonio.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.joecolantonio.com%2Frest-test-tool-karate-api-testing%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.joecolantonio.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.joecolantonio.com%2Frest-test-tool-karate-api-testing%2F&#038;format=xml" />
+        
+        
+        
+
+		
+		
+	<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>			
+		</head>
+<body data-rsssl=1 class="post-template-default single single-post postid-3356 single-format-standard custom-background">
+
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ4FS8H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPHB9TQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" width="1" height="1" data-lazy-src="https://www.sociamonials.com/tracking.php?t=l&tid=1013"><noscript><img src="https://www.sociamonials.com/tracking.php?t=l&tid=1013" width="1" height="1"></noscript>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" width="1" height="1" data-lazy-src="https://www.sociamonials.com/tracking.php?t=s&tid=1013&rev=197.00"><noscript><img src="https://www.sociamonials.com/tracking.php?t=s&tid=1013&rev=197.00" width="1" height="1"></noscript><div class="flex-cnt">
+	<header class="center " style="">
+				<div class="h-i">
+			<div class="th">
+				<div class="wrp clearfix">
+					
+																					<a class="" href="https://www.joecolantonio.com/" id="logo">
+									<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+									     alt="Test Automation Made Easy: Tools, Tips &amp; Training Awesomeness" data-lazy-src="https://www.joecolantonio.com/wp-content/uploads/2015/04/JoeBotLogo.jpg"><noscript><img src="https://www.joecolantonio.com/wp-content/uploads/2015/04/JoeBotLogo.jpg"
+									     alt="Test Automation Made Easy: Tools, Tips &amp; Training Awesomeness"></noscript>
+								</a>
+																									<div class="ha">
+																																							<div class="tt-adp-header-main" style="width:728px;height:90px;">
+									<a href="https://www.joecolantonio.com/testtalks">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20100'%3E%3C/svg%3E" height="100" width="600" alt="Test Talks Podcast" / data-lazy-src="https://www.joecolantonio.com/wp-content/uploads/2016/03/TestTalksTopLogoWide.png" ><noscript><img src="https://www.joecolantonio.com/wp-content/uploads/2016/03/TestTalksTopLogoWide.png" height="100" width="600" alt="Test Talks Podcast" / ></noscript>
+</a>								</div>
+													</div>
+
+					
+				</div>
+			</div>
+			<div class="bh clearfix" 			     >
+				<div class="wrp clearfix">
+					<div class="hsm"></div>
+
+					
+					<div class="nav_c">
+													<!-- Cart Dropdown -->
+							<nav class="menu-mainmenu-container"><ul id="menu-mainmenu" class="menu"><li  id="menu-item-1504" class="c_def menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children toplvl dropdown "><a href="https://www.joecolantonio.com/blog/">ARTICLES</a><ul class="sub-menu">	<li  id="menu-item-4104" class="c_def menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.joecolantonio.com/api-testing/">API Testing</a></li>
+	<li  id="menu-item-4038" class="c_def menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.joecolantonio.com/automation-testing-resources/">Automation Testing</a></li>
+	<li  id="menu-item-4095" class="c_def menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.joecolantonio.com/automation-testing-tools/">Automation Tools</a></li>
+	<li  id="menu-item-4036" class="c_def menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.joecolantonio.com/12-open-source-api-testing-tools-rest-soap-services/">API Test Tools</a></li>
+	<li  id="menu-item-4037" class="c_def menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.joecolantonio.com/open-source-performance-testing-tools/">Performance Testing Tools</a></li>
+	<li  id="menu-item-4039" class="c_def menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.joecolantonio.com/7-innovative-ai-test-automation-tools-future-third-wave/">AI Automation Tools</a></li>
+	<li  id="menu-item-4040" class="c_def menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.joecolantonio.com/top-8-essential-javascript-automation-frameworks/">Javascript Automation Tools</a></li>
+</ul></li>
+<li  id="menu-item-3581" class="c_def menu-item menu-item-type-custom menu-item-object-custom toplvl "><a href="https://guildconferences.com">CONFERENCES</a></li>
+<li  id="menu-item-3580" class="c_def menu-item menu-item-type-custom menu-item-object-custom toplvl "><a href="http://www.testtalks.com">PODCAST</a></li>
+<li  id="menu-item-1503" class="c_def menu-item menu-item-type-post_type menu-item-object-page toplvl "><a href="https://www.joecolantonio.com/about/">ABOUT</a></li>
+<li  id="menu-item-4203" class="c_def menu-item menu-item-type-custom menu-item-object-custom toplvl "><a href="https://www.joecolantonio.com/contact-me/">CONTACT</a></li>
+</ul></nav>											</div>
+
+											<div class="hi">
+							<form action="https://www.joecolantonio.com/" method="get" class="hf left">
+								<input type="text" placeholder="Search" name="s"/>
+								<button></button>
+							</form>
+							<div class="hs right">
+								<ul>
+																			<li><a class="fb" href="https://www.facebook.com/testtalks/"
+										       target="_blank"></a></li>
+																												<li><a class="twitter" href="https://twitter.com/joecolantonio"
+										       target="_blank"></a></li>
+																																														<li><a class="linkedin" href="https://www.linkedin.com/in/joecolantonio"
+										       target="_blank"></a></li>
+																												<li><a class="youtube" href="https://www.youtube.com/user/JoeColantonio"
+										       target="_blank"></a></li>
+																	</ul>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+
+	
+
+
+			<div class="spr"></div>
+	
+	<section class="brd">
+		<div class="wrp">
+							<ul>
+					<li typeof='v:Breadcrumb'><a rel='v:url' property='v:title' class='home' href='https://www.joecolantonio.com/'> Home</a> <span> &nbsp;/&nbsp; </span></li><li typeof='v:Breadcrumb'><a rel='v:url' property='v:title' class='home' href='https://www.joecolantonio.com/blog/'> Blog<span> &nbsp;/&nbsp; </span></a></li><li typeof='v:Breadcrumb'><a rel='v:url' property='v:title' href='https://www.joecolantonio.com/api-testing-posts/'>API Testing</a></li><li typeof='v:Breadcrumb'><span class='no-link' rel='v:url' property='v:title'><span> &nbsp;/&nbsp; </span>Karate a Rest Test Tool &#8211; Basic API Testing</span></li>				</ul>
+					</div>
+	</section>
+
+
+					<div class="bt dp">
+				<div class="wrp">
+																		<h1 class="entry-title">Karate a Rest Test Tool &#8211; Basic API Testing</h1>
+																</div>
+			</div>
+		
+		<div class="wrp cnt p-s">
+			
+						<div class="bSeCont">
+				<section
+					class="bSe left">
+
+					<article>
+						<div class="awr">
+																								<div class="met">
+										<div class="meta left">
+																							<div class="left ma">
+																									</div>
+																						<div class="left mc">
+																																																					<div
+															class="cat_b left cat_red">
+															<a href="https://www.joecolantonio.com/api-testing-posts/">
+																API Testing															</a>
+														</div>
+																											<div class="clear"></div>
+																																					<span>
+                                                    	                                                    By	                                                    <a href="https://www.joecolantonio.com/author/joecolantonio/">
+		                                                    Joe Colantonio	                                                    </a>
+                                                    													/																																										March 23, 2017																											
+                                                </span>
+
+											</div>
+											<div class="clear"></div>
+										</div>
+										<div class="mets right tt-share" data-url="https://www.joecolantonio.com/rest-test-tool-karate-api-testing/"
+     data-id="3356"><!--max 3 -->
+	<div class="bps">
+							<div class="ss">
+				<a class="twitter"
+				   href="https://twitter.com/share?text=Karate a Rest Test Tool &#8211; Basic API Testing:&url=https://www.joecolantonio.com/rest-test-tool-karate-api-testing/"
+				   onclick="return ThriveApp.open_share_popup(this.href, 545, 433);">
+					<span>Tweet</span>
+				</a>
+			</div>
+											<div class="ss">
+				<a class="linkedin" href="https://www.linkedin.com/cws/share?url=https://www.joecolantonio.com/rest-test-tool-karate-api-testing/"
+				   onclick="return ThriveApp.open_share_popup(this.href, 545, 433);">
+					<span>Share</span>
+									</a>
+			</div>
+			</div>
+</div>										<div class="clear"></div>
+									</div>
+
+															
+														
+							
+															<div class="afim">
+									<img
+									 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+										alt="Karate DSL API Testing"
+										title="KarateDSLAPITesting" data-lazy-src="https://www.joecolantonio.com/wp-content/uploads/2017/03/KarateDSLAPITesting-220x220.png"/><noscript><img
+										src="https://www.joecolantonio.com/wp-content/uploads/2017/03/KarateDSLAPITesting-220x220.png"
+										alt="Karate DSL API Testing"
+										title="KarateDSLAPITesting"/></noscript>
+								</div>
+							
+							
+							
+							<p>I recently learned about a new, open-source API testing tool called <a href="https://github.com/intuit/karate">Karate</a>, which helps with testing web and REST services API’s in Java. So I thought I’d enter the API testing dojo and check out how it works. Today’s post will focus on some Karate DSL basic techniques.</p>
+<p>*I first learned about<a href="https://github.com/intuit/karate" target="_blank" rel="nofollow noopener" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://github.com/intuit/karate&amp;source=gmail&amp;ust=1537448013577000&amp;usg=AFQjCNEEdcZYA5TNHr1u8rAtjsWTgF9q2A"> Karate</a> in early 2017, when the tool was still in its early stages of development, and immediately saw its potential. Since then Karate as matured in a stable tool with unique functionality, such as having API Testing, API testing doubles, and API performance testing all available in one framework.</p>
+<p>API tests are written using BDD Gherkin syntax. But unlike most BDD frameworks (Cucumber, JBehave, SpecFlow), you don&#8217;t need to write step definitions. Karate has already created all the step definitions you need to get started testing APIs.</p>
+<p>If you&#8217;re new to programming or automation testing Karate is easy to use since no Java knowledge is required. If this is you, Karate might be the perfect choice for your team.</p>
+<p><iframe src="https://www.youtube.com/embed/yKRR1j0A9Q4" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>Karate API Test Tool Setup</h2>
+<p>Before we can check out some of the testing moves you can perform with Karate, we need to have a project set up.</p>
+<p>The easiest way to do this is to create a new project based on the Karate Maven archetype using <a href="https://maven.apache.org/">Maven</a>. I’ll assume you already have Java and Maven installed. If not, check out my videos on <a href="https://youtu.be/wwsn1jEvsHY">How to Install Java</a> and <a href="https://youtu.be/KGQ2zFRbzjA">How to Install Maven</a>.</p>
+<h3>Set Up your Karate REST Test Project</h3>
+<p>1. Start up your favorite IDE. (I’ll be using <a href="https://eclipse.org/">Eclipse</a> for this example.)<br />
+2. Go to File&gt;New&gt;Maven Project and take the defaults on first screen.<br />
+3. Under New Maven Project, create a click on Add Archetype<br />
+4. Enter the following info:</p>
+<p><em>Archetype Group Id= com.intuit.karate</em><br />
+<em> ArchetypeArtifactId= karate-archetype</em><br />
+<em> ArchetypeVersion=0.2.7</em><br />
+5. Click OK.<br />
+6. It should find the Karate-archetype. Click on Next.<br />
+7. On the next screen, enter:</p>
+<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;width:435px;"><div class="text codecolorer">GroupId=com.testtalks.karatedemo<br />
+ArtifactId=karatedemo</div></div>
+<h2>Existing Java CucumberJVM Maven Projects</h2>
+<p>If you have an existing <a href="https://github.com/cucumber/cucumber-jvm">CucumberJVM</a> Maven project, all you need to do is add the following dependency in your pom.xml file:</p>
+<div class="codecolorer-container xml default" style="overflow:auto;white-space:nowrap;width:435px;"><div class="xml codecolorer">com.intuit.karate<br />
+karate-junit4<br />
+0.2.7<br />
+test</div></div>
+<p>Once you have your project set up, we can begin coding your REST <a href="https://www.joecolantonio.com/2014/09/23/the-gui-is-no-longer-king-why-api-testing-is-important/">test API</a> in Java.</p>
+<p>We’ll be using Jenkins as the test application. Jenkins comes with a nice REST API that we can easily interact with as an example to test JSON.</p>
+<h2>Create your First Rest API Test using Karate</h2>
+<p>1. Under src/test/java, create a new file called Jenkins.feature<br />
+2. Enter the following:</p>
+<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;width:435px;"><div class="text codecolorer">Feature: Demo Karate against Jenkins</div></div>
+<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;width:435px;"><div class="text codecolorer">Scenario: Verify that Jenkins is up and running</div></div>
+<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;width:435px;"><div class="text codecolorer">Given url 'http://localhost:8080/api/json?pretty=true'<br />
+When method get<br />
+Then status 200<br />
+And match response.jobs[*].name contains ['JoeProject1']</div></div>
+<p>Click Run.</p>
+<p>Your test should pass.</p>
+<h2>Karate Rest Test Tool &#8211; No Code Required!</h2>
+<p>What’s cool about Karate is that unlike most BDD frameworks (Cucumber, JBehave and SpecFlow), you don’t need to write step definitions. The reason for that is that Karate has already created all the step definitions you need in order to get started with JSON, HTTP or XML.</p>
+<p>You don’t even need to write Java code! You can create your API test in a <a href="https://www.joecolantonio.com/2016/04/19/wow-customers-tdd-bdd/">BDD </a>syntax without the overhead of writing any code to implement your scenarios.</p>
+<h2>Rest API Test Tool Using CucumberJVM</h2>
+<p>Since Karate’s REST test tool is built on top of Cucumber-JVM, you can run your tests, view reports and leverage any other Cucumber functionality just as with any standard Java project.</p>
+<p>In addition, the “Getting Started” guide for Karate recommends using jUnit &#8212; NOT TestNG &#8212; since things like dynamic tables, data-driven testing and tag groups are already built in.</p>
+<h2>Is Karate Better Than Rest-Assured?</h2>
+<p>I’m just getting started with Karate myself, but as you can see in the video I was able to navigate pretty easily with zero prior knowledge of it.  Its too early for me to really compare Karate vs <a href="http://rest-assured.io/">Rest-Assured</a>. I&#8217;m also a big believer in that there is not better tool its more what tool is better for your team. I know that the creator of Karate Peter has an awesome <a href="http://tinyurl.com/karatera">comparison</a> of the two.  What do you think?</p>
+<span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid transparent;"></span>
+																				</div>
+					</article>
+
+					<div class="clear"></div>
+
+					
+					<div class="clear"></div>
+
+					
+					<div class="clear"></div>
+					
+					
+											
+	<article id="comments">
+					<div class="awr cmm" >
+				<h6>9comments</h6>
+			</div>
+		
+		
+		<div class="cmc" style="margin-left: 0px;" id="thrive_container_list_comments">
+															<div class="cmb" id="comment-319731">
+					<div class="cmc">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <span class="uNM">Richard Swedish</span>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            January 5, 2018                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>Joe,</p>
+<p>We are about to start building out a API testing framework using Rest-Assured.  We like Rest-Assured and it fits well into our eco-system.</p>
+<p>But, I work for a large company and we still have a lot of SOAP Services and Rest-Assured does not work with SOAP (that I am aware of).</p>
+<p>I like what I have read about Karate and that does not require coding (even though my team could do the coding) but other teams cannot.</p>
+<p>So, my questions are:</p>
+<p>1.) How reliable/mature is Karate now?<br />
+2.) It says it can work with REST and SOAP is that correct?<br />
+3.) Is there another OPEN SOURCE SOAP testing tool out there that we can run tests in the cloud using (as I don&#8217;t want to use SOAPUI as it requires client installs).</p>
+<p>Please let me know.  This is a big to do on our roadmap of testing tools to add this year.</p>
+<p>Thanks as always Joe.</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-319731"
+									   cid="319731">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-319731" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="319731">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="319731"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-319731">
+				</div>
+							</li><!-- #comment-## -->
+								<div class="cmb" id="comment-323850">
+					<div class="cmc">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <span class="uNM">Raj</span>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            February 10, 2018                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>Hi<br />
+I am working on angular application . Would this be the right tool for it?</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-323850"
+									   cid="323850">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-323850" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="323850">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="323850"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-323850">
+				</div>
+							<ul class="children">
+								<div class="cmb" id="comment-323852">
+					<div class="cmc byAut">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <a href="https://www.joecolantonio.com" target="_blank" rel="nofollow">
+		                                    Joe Colantonio	                                    </a>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            February 10, 2018                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>HI Raj &#8211; what kind of application are you trying to test? My understanding is that Angular is a platform that makes it easy to build applications with the web. So if you want to test a web front end than NO an API testing tool like Karate would not be the right choice. If your application has APIs that are consumed by your Angular front end than yes you could use Karate to test those APIs</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-323852"
+									   cid="323852">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-323852" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="323852">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="323852"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-323852">
+				</div>
+							</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+								<div class="cmb" id="comment-324129">
+					<div class="cmc">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <span class="uNM">Irfan</span>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            February 13, 2018                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>Hi Joe,</p>
+<p>I noticed that the above article was posted almost a year ago so I agree to your comment the it is too early for you to compare Karate vs Rest-Assured.</p>
+<p>But now would it be safe to ask your opinion on Karate vs Rest-Assured comparison?</p>
+<p>Thanks<br />
+Irafan</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-324129"
+									   cid="324129">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-324129" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="324129">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="324129"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-324129">
+				</div>
+							<ul class="children">
+								<div class="cmb" id="comment-330721">
+					<div class="cmc byAut">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <a href="https://www.joecolantonio.com" target="_blank" rel="nofollow">
+		                                    Joe Colantonio	                                    </a>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            April 24, 2018                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>Irafan I think both are great options. I know that Karate has been steadily improving but I have not done any active programming with it. I need to check it out again and see :)</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-330721"
+									   cid="330721">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-330721" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="330721">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="330721"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-330721">
+				</div>
+							</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+								<div class="cmb" id="comment-327514">
+					<div class="cmc">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <span class="uNM">Sean Jones</span>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            March 16, 2018                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>Hi Joe C.,<br />
+I&#8217;m currently working on Karate for a current project. For which I find Karate very intuitive. I&#8217;m running into a dilemma concerning POST json body validation with Karate. Could you refer me to some materials?</p>
+<p>Thanks,</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-327514"
+									   cid="327514">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-327514" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="327514">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="327514"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-327514">
+				</div>
+							</li><!-- #comment-## -->
+								<div class="cmb" id="comment-328841">
+					<div class="cmc">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <span class="uNM">kushal</span>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            April 3, 2018                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>Hi,</p>
+<p>Just wanted to know in Which Scenarios we can use Karate over Rest-Assured. or in your opinion so far is Karate Better than Rest-Assured?</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-328841"
+									   cid="328841">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-328841" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="328841">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="328841"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-328841">
+				</div>
+							<ul class="children">
+								<div class="cmb" id="comment-330718">
+					<div class="cmc byAut">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <a href="https://www.joecolantonio.com" target="_blank" rel="nofollow">
+		                                    Joe Colantonio	                                    </a>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            April 24, 2018                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>Not sure one is &#8220;better&#8221; over the other. Both are great options. I would recommend trying both and have your team decided which is best for them.</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-330718"
+									   cid="330718">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-330718" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="330718">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="330718"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-330718">
+				</div>
+							</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+								<div class="cmb" id="comment-350119">
+					<div class="cmc">
+						<div class="left">
+													</div>
+
+						<div class="ccr right">
+							<div class="awr">
+                                <span class="left nam">
+                                    	                                    <span class="uNM">Paedru</span>
+                                    	                                		                                -
+		                                <span class="uDt">
+                                            	                                            May 21, 2019                                            
+                                        </span>
+	                                                                </span>
+
+								<div class="clear"></div>
+																	<p>It&#8217;s slow tool<br />
+A 100 test case takes 15 to 200 minutes to execute..better use Resteasy..</p>
+<p>Not worthy tool</p>
+																									<a class="rpl reply right" href="#"
+									   id="link-reply-350119"
+									   cid="350119">
+										Reply									</a>
+									<div class="clear"></div>
+																<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="lrp" id="respond-container-350119" style="display: none;">
+						<h4>Leave a reply:</h4>
+
+						<div class="clear"></div>
+						<a href="#" class="rpl right cancel_reply" cid="350119">
+							Cancel Reply						</a>
+
+						<div class="clear"></div>
+						<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post">
+															<label for="author">Name*</label>
+								<input type="text" author="author" id="author" placeholder="" name="author">
+								<div class="clear"></div>
+								<label for="email">Email*</label>
+								<input type="text" author="email" id="email" placeholder="" name="email">
+								<div class="clear"></div>
+								<label for="website">Website</label>
+								<input type="text" class="lst" author="website" id="website" placeholder="" name="website">
+								<p class="comment-form-cookies-consent">
+									<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+									<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+										Save my name, email, and website in this browser for the next time I comment.									</label>
+								</p>
+														<div class="clear"></div>
+							<label for="comment">Comment</label>
+							<textarea class="textarea" name="comment" id="comment"></textarea>
+							<input id="comment_post_ID" type="hidden" value="3356"
+							       name="comment_post_ID">
+							<input id="comment_parent" type="hidden" value="350119"
+							       name="comment_parent">
+
+							<div class="btn blue small">
+								<input type="submit" value="POST COMMENT">
+							</div>
+													</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="lrp" id="respond-container-350119">
+				</div>
+							</li><!-- #comment-## -->
+					</div>
+		<!-- /comment_list -->
+
+		
+									<div class="btn blue small right" id="shf">
+					<span>Click here to add a comment</span>
+				</div>
+						<div class="clear"></div>
+						<div class="lrp hid"
+				 id="thrive_container_form_add_comment">
+				<h4>Leave a comment:</h4>
+				<form action="https://www.joecolantonio.com/wp-comments-post.php" method="post"
+					  id="commentform">
+											<label for="author">Name *</label>
+						<input type="text" placeholder="" id="author" author="author" class="text_field author" name="author"/>
+						<div class="clear"></div>
+						<label for="author">Email *</label>
+						<input type="text" placeholder="" id="email" author="email" class="text_field email" name="email"/>
+						<div class="clear"></div>
+						<label for="author">Website</label>
+						<input type="text" placeholder="" id="website" author="website" class="text_field website lst" name="url"/>
+						<div class="clear"></div>
+						<p class="comment-form-cookies-consent">
+							<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+							<label for="wp-comment-cookies-consent" style="width: 90%;float: none;display: inline-block;">
+								Save my name, email, and website in this browser for the next time I comment.							</label>
+						</p>
+										<div class="clear"></div>
+					<label for="comment">Comment</label>
+					<textarea id="comment" name="comment" class="textarea"></textarea>
+					<div class="clear"></div>
+															<div class="btn blue small">
+						<input type="submit" value="POST COMMENT"/>
+					</div>
+					<input type='hidden' name='comment_post_ID' value='3356' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+					<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="db8aa7c5a9" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="196"/></p>					<div class="clear"></div>
+				</form>
+			</div>
+			</article>
+	<div id="comment-bottom"></div>
+					
+									</section>
+				</div>								<div class="sAsCont">
+				<aside class="sAs right">
+							<section id="text-18"><div class="awr scn">			<div class="textwidget"><div style="display:table-cell; vertical-align:middle; text-align:center;padding:5">
+<a href="https://signup.saucelabs.com/signup/trial?campid=7011M000001N5qt&utm_campaign=free+trial&utm_medium=website&utm_source=testtalks">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="https://joecolantonio.com/testtalks/wp-content/uploads/2016/03/New_Sauce_Labs_Logo_Hold_Until_March_1st.png" /><noscript><img src="https://joecolantonio.com/testtalks/wp-content/uploads/2016/03/New_Sauce_Labs_Logo_Hold_Until_March_1st.png" /></noscript>
+</a>
+<p>
+test.allTheThings() with Sauce Labs, the largest Continuous Testing cloud for web and mobile apps. Test free for 14 days.
+<p>
+<p>
+<a href="https://signup.saucelabs.com/signup/trial?campid=7011M000001N5qt&utm_campaign=free+trial&utm_medium=website&utm_source=testtalks">Sign up for a free trial!</a>
+</p>
+</div>
+
+</div>
+		</div></section><section id="text-22"><div class="awr scn"><div class="twr"><p class="ttl">Testing Podcast</p></div>			<div class="textwidget"><img alt="Get it on TestTalks" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="https://joecolantonio.com/testtalks/wp-content/uploads/2015/05/TestTalksNoSloganNoBackground.png" /><noscript><img alt="Get it on TestTalks" src="https://joecolantonio.com/testtalks/wp-content/uploads/2015/05/TestTalksNoSloganNoBackground.png" /></noscript>
+<p>
+<a href="https://itunes.apple.com/us/podcast/testtalks-automation-awesomeness/id826722706">Click Here to Subscribe via iTunes</a><br/>
+<a href="http://feeds.feedburner.com/TesttalksAutomationAwesomenessHelpingYouSucceedWithTestAutomation">Click Here to Subscribe via RSS (non-iTunes feed)</a>
+</p>
+<p>
+<b>Download & Share FREE TestTalks App</b>
+<br/>
+<a href="https://play.google.com/store/apps/details?id=com.testtalks.android.test&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1">Android App On Google Play </a>
+<a href="https://geo.itunes.apple.com/us/app/testtalks/id1076959916?mt=8" style="display:inline-block;overflow:hidden;width:264px;height:75px;">Download on App Store</a>
+</div>
+		</div></section>						<div class="clear"></div>
+		</aside>
+			</div>
+			
+			<div class="clear"></div>
+			<hr>
+					</div>
+							<!--WP Code Highlight_start-->
+	<script type="text/javascript">
+		window.onload = function(){prettyPrint();};
+	</script>
+	
+	<!--WP Code Highlight_end-->
+</div>
+<div class="clear"></div>
+<footer>
+	
+		<div class="ftw">
+						<div class="wrp">
+								<div class="clear"></div>
+			</div>
+		</div>
+
+		<div class="ftm ">
+		<div class="wrp">
+			<p>
+									Copyright text 2019 by Joe Colantonio | TestTalks <a href="https://www.joecolantonio.com/privacy-policy/">Privacy Policy</a> Disclaimer All the contents of the Blog, EXCEPT FOR COMMENTS, constitute the opinion of the Author and the Author alone; they do not represent the views and opinions of the Author’s employers, supervisors, nor do they represent the view of organizations, businesses or institutions the Author is a part of. <a href="https://www.joecolantonio.com/privacy-policy/">Privacy Policy</a> | <a href="https://www.joecolantonio.com/sitemap/"> Sitemap</a>
+
+ 											</p>
+						<div class="clear"></div>
+		</div>
+	</div>
+</footer>
+	<div class="iqs">
+		<ul>
+													<li class="lk"
+				    onclick="return ThriveApp.open_share_popup('https://www.linkedin.com/cws/share?url=https://www.joecolantonio.com/rest-test-tool-karate-api-testing/', 545, 433);">
+					<a href=""></a></li>
+													<li class="tw"
+				    onclick="return ThriveApp.open_share_popup('https://twitter.com/share?text=Karate a Rest Test Tool &#8211; Basic API Testing:&url=https://www.joecolantonio.com/rest-test-tool-karate-api-testing/', 545, 433);">
+					<a href=""></a></li>
+					</ul>
+	</div>
+
+
+<!-- Drip Code -->
+<script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {}; 
+  _dcs.account = '2143417';
+  
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true; 
+    dc.src = '//tag.getdrip.com/2143417.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+</script>        <script type="text/javascript">
+            SyntaxHighlighter.all()
+        </script>
+<span style="display:none" class="tl-placeholder-f-type-screen_filler"></span>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.joecolantonio.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tve_frontend_options = {"is_editor_page":"","page_events":[],"is_single":"1","ajaxurl":"https:\/\/www.joecolantonio.com\/wp-admin\/admin-ajax.php","social_fb_app_id":"","dash_url":"https:\/\/www.joecolantonio.com\/wp-content\/plugins\/thrive-visual-editor\/thrive-dashboard","translations":{"Copy":"Copy"}};
+/* ]]> */
+</script>
+
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ThriveApp = {"ajax_url":"https:\/\/www.joecolantonio.com\/wp-admin\/admin-ajax.php","lazy_load_comments":"0","comments_loaded":"0","theme_uri":"https:\/\/www.joecolantonio.com\/wp-content\/themes\/performag","infinite_scroll":"0","is_singular":"1","load_posts_url":"https:\/\/www.joecolantonio.com\/wp-admin\/admin-ajax.php?action=thrive_load_more_posts","load_related_posts_url":"https:\/\/www.joecolantonio.com\/wp-admin\/admin-ajax.php?action=thrive_load_more_related_posts","load_latest_posts_url":"https:\/\/www.joecolantonio.com\/wp-admin\/admin-ajax.php?action=thrive_load_more_latest_posts","current_page":"1","currentPostId":"3356","translations":{"ProductDetails":"Product Details"}};
+/* ]]> */
+</script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tve_dash_front = {"ajaxurl":"https:\/\/www.joecolantonio.com\/wp-admin\/admin-ajax.php","force_ajax_send":"1","is_crawler":""};
+/* ]]> */
+</script>
+
+
+
+<script type="text/javascript">/*<![CDATA[*/if ( !window.TL_Const ) {var TL_Const={"security":"50124b232b","ajax_url":"https:\/\/www.joecolantonio.com\/wp-admin\/admin-ajax.php","forms":[],"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":1,"main_group_id":3706,"display_options":{"allowed_post_types":[],"flag_url_match":false},"custom_post_data":[],"current_screen":{"screen_type":4,"screen_id":3356},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","__tcb_lg_msg","_state","_form_type","_error_message_option","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]};} else {ThriveGlobal.$j.extend(true, TL_Const, {"security":"50124b232b","ajax_url":"https:\/\/www.joecolantonio.com\/wp-admin\/admin-ajax.php","forms":[],"action_conversion":"tve_leads_ajax_conversion","action_impression":"tve_leads_ajax_impression","ajax_load":1,"main_group_id":3706,"display_options":{"allowed_post_types":[],"flag_url_match":false},"custom_post_data":[],"current_screen":{"screen_type":4,"screen_id":3356},"ignored_fields":["email","_captcha_size","_captcha_theme","_captcha_type","_submit_option","_use_captcha","g-recaptcha-response","__tcb_lg_fc","__tcb_lg_msg","_state","_form_type","_error_message_option","_back_url","_submit_option","url","_asset_group","_asset_option","mailchimp_optin"]})} /*]]> */</script><script>
+            window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }};
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+        
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                return;
+                            }
+
+                           if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                return;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+                            
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+                
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+                
+                observer.observe(b, config);
+            }
+        }, false);
+        </script><script type="text/javascript" defer src="https://www.joecolantonio.com/wp-content/cache/autoptimize/js/autoptimize_aea18e02f2c8dda146742cfa14d54af3.js"></script></body>
+</html>	
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1561362181 -->
+
+14:57:19.350 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 43; The reference to entity "l" must end with the ';' delimiter.
